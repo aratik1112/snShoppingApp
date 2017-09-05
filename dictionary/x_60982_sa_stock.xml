@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Stock" max_length="40" name="x_60982_sa_stock" type="collection">
+        <element label="Category" max_length="32" name="category" read_only="true" reference="x_60982_sa_product_category" type="reference"/>
+        <element label="Product" max_length="32" name="product" read_only="true" reference="x_60982_sa_product" type="reference"/>
+        <element label="Units Added" max_length="32" name="units_added" reference="x_60982_sa_product" type="reference"/>
+        <element label="Units Available" max_length="40" name="units_available" read_only="true" type="string"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="category"/>
+        </index>
+        <index name="index3">
+            <element name="units_added"/>
+        </index>
+    </element>
+</database>

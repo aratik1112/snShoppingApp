@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Invoice" max_length="40" name="x_60982_sa_invoice" type="collection">
+        <element label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
+        <element label="GST" max_length="40" name="gst" read_only="true" type="integer"/>
+        <element label="Invoice Date" max_length="40" name="invoice_date" type="glide_date_time"/>
+        <element label="Invoice Total" max_length="20" name="invoice_total" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Invoice Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Products" max_length="4000" name="products" reference="x_60982_sa_product" type="glide_list"/>
+        <index name="index">
+            <element name="customer_name"/>
+        </index>
+    </element>
+</database>

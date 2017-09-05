@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="ldap_server_config">
+    <ldap_server_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <authenticate>true</authenticate>
+        <connect_timeout>10</connect_timeout>
+        <dn>Administrator</dn>
+        <dn_field/>
+        <listen_interval>5</listen_interval>
+        <listener>true</listener>
+        <map/>
+        <mid_server/>
+        <name>turasys.com</name>
+        <paging>true</paging>
+        <password>gOKQPIxKhDrOUURvqyqu0A==</password>
+        <rdn/>
+        <read_timeout>30</read_timeout>
+        <server_url>ldap://ec2-54-210-110-79.compute-1.amazonaws.com:389/</server_url>
+        <ssl>false</ssl>
+        <sys_class_name>ldap_server_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-09-02 01:11:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cf21910c0f85c3007404b17ce1050e0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>turasys.com</sys_name>
+        <sys_package display_value="Shopping Application" source="x_60982_sa">afa7037d0f7003007404b17ce1050eb0</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Shopping Application">afa7037d0f7003007404b17ce1050eb0</sys_scope>
+        <sys_update_name>ldap_server_config_cf21910c0f85c3007404b17ce1050e0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-09-02 01:11:57</sys_updated_on>
+        <system_id>app128046.hkg1.service-now.com:dev35397002</system_id>
+        <vendor>active_directory</vendor>
+    </ldap_server_config>
+</record_update>
