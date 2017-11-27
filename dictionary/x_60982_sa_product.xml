@@ -6,7 +6,7 @@
         <element label="Product Description" mandatory="true" max_length="100" name="product_description" type="string"/>
         <element label="Product Image" max_length="40" name="product_image" type="user_image"/>
         <element label="Product Name" max_length="60" name="product_name" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '' ;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="3" dependent="category_id" dependent_on_field="category_id" label="Sub Category" max_length="40" name="sub_category" reference="x_60982_sa_sub_category" type="reference" use_dependent_field="true">
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;// Add your code here&#10;&#9;return '' ;  // return the calculated value&#10;&#10;})(current);" choice="3" dependent="category_id" dependent_on_field="category_id" label="Sub Category" max_length="40" name="sub_category" reference="x_60982_sa_sub_category" type="reference" use_dependent_field="true">
             <choice/>
         </element>
         <element label="Units Added" max_length="32" name="units_added" type="integer"/>
@@ -15,6 +15,9 @@
             <element name="category_id"/>
         </index>
         <index name="index2">
+            <element name="sub_category"/>
+        </index>
+        <index name="index3">
             <element name="units_added"/>
         </index>
     </element>

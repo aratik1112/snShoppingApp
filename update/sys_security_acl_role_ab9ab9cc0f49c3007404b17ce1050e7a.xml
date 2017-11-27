@@ -4,13 +4,11 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-02 04:12:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>ab9ab9cc0f49c3007404b17ce1050e7a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_60982_sa_sysiddemo.x_60982_sa.sa_viewer</sys_name>
         <sys_package display_value="Shopping Application" source="x_60982_sa">afa7037d0f7003007404b17ce1050eb0</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Shopping Application">afa7037d0f7003007404b17ce1050eb0</sys_scope>
         <sys_security_acl display_value="x_60982_sa_sysiddemo">2b9ab9cc0f49c3007404b17ce1050e76</sys_security_acl>
         <sys_update_name>sys_security_acl_role_ab9ab9cc0f49c3007404b17ce1050e7a</sys_update_name>

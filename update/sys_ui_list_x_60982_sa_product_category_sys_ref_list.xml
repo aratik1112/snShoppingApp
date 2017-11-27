@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>category_name</element>
-            <list_id display_value="x_60982_sa_product_category" element="NULL" name="x_60982_sa_product_category" parent="NULL" relationship="NULL" sys_domain="global" view="b7a727721902320092c0a763583fa42a">4e43d7390f3403007404b17ce1050e69</list_id>
+            <list_id display_value="x_60982_sa_product_category" element="NULL" name="x_60982_sa_product_category" parent="NULL" relationship="NULL" sys_domain="global" view="5c962341dd2003003399d83d70be026c">4e43d7390f3403007404b17ce1050e69</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -29,7 +29,6 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-08-26 10:53:24</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4e43d7390f3403007404b17ce1050e69</sys_id>
@@ -37,13 +36,12 @@
             <sys_name>x_60982_sa_product_category</sys_name>
             <sys_package display_value="Shopping Application" source="x_60982_sa">afa7037d0f7003007404b17ce1050eb0</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Shopping Application">afa7037d0f7003007404b17ce1050eb0</sys_scope>
             <sys_update_name>sys_ui_list_x_60982_sa_product_category_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-08-26 10:53:24</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">b7a727721902320092c0a763583fa42a</view>
+            <view display_value="Reference List" name="sys_ref_list">5c962341dd2003003399d83d70be026c</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

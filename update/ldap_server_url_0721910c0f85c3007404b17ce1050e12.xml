@@ -8,13 +8,11 @@
         <sys_class_name>ldap_server_url</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-02 01:11:17</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
         <sys_id>0721910c0f85c3007404b17ce1050e12</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>ldap://ec2-54-210-110-79.compute-1.amazonaws.com:389/</sys_name>
         <sys_package display_value="Shopping Application" source="x_60982_sa">afa7037d0f7003007404b17ce1050eb0</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Shopping Application">afa7037d0f7003007404b17ce1050eb0</sys_scope>
         <sys_update_name>ldap_server_url_0721910c0f85c3007404b17ce1050e12</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
